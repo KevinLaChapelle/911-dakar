@@ -49,17 +49,8 @@ This is an independent enthusiast project, not an official Porsche website. Pors
 
 For a public launch, set `og:image` to an absolute URL on your chosen domain for reliable social previews.
 
-## GitHub setup
+## Repository
 
-The project is prepared as a standalone Git repository. If creation could not be completed by the assistant, create a private repository named `911-dakar` without initializing files, then run:
+Source: https://github.com/KevinLaChapelle/911-dakar
 
-```sh
-git remote add origin https://github.com/KevinLaChapelle/911-dakar.git
-git push -u origin main
-```
-
-With GitHub CLI installed and signed in, this creates and pushes in one step:
-
-```sh
-gh repo create 911-dakar --private --source . --remote origin --push
-```
+Clone the repository, then run the local server as described above. No deployment is triggered by uploading this source.

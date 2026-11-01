@@ -1,0 +1,9 @@
+{
+  "name": "911-dakar-beyond-the-road",
+  "version": "1.0.0",
+  "private": true,
+  "description": "An independent 2024 Porsche 911 Dakar editorial showcase",
+  "type": "module",
+  "scripts": { "dev": "node scripts/server.mjs", "start": "node scripts/server.mjs", "build": "node scripts/build.mjs", "preview": "node scripts/server.mjs --dist" },
+  "engines": { "node": ">=20" }
+}
